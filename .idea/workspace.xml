@@ -32,13 +32,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ae0a8d61-d9e5-4aa2-b89f-816eb074849e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/app/MagicCategory/MagicClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/MagicCategory/MagicClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/app/MagicCategory/Point.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/MagicCategory/Point.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/app/MagicCategory/Vector.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/MagicCategory/Vector.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/resources/views/lab3.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/lab3.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +212,7 @@
       <workItem from="1606401569864" duration="2753000" />
       <workItem from="1606405027424" duration="590000" />
       <workItem from="1606838415695" duration="233000" />
-      <workItem from="1606838727697" duration="10041000" />
+      <workItem from="1606838727697" duration="10297000" />
     </task>
     <servers />
   </component>
