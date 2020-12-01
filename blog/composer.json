@@ -1,7 +1,7 @@
 {
-    "name": "urfu/Tsvetkov",
+    "name": "laravel/laravel",
     "type": "project",
-    "description": "LabWork",
+    "description": "The Laravel Framework.",
     "keywords": [
         "framework",
         "laravel"

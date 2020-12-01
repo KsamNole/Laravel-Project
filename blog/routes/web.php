@@ -9,6 +9,10 @@ Route::get('/about', function () {
     return view('about');
 })->name('about');
 
+Route::get('/lab3', function () {
+    return view('lab3');
+})->name('lab3');
+
 Route::get('/', [HomeController::class, 'index'])
     ->name('home');
 
