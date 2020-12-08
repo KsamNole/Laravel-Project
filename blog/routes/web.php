@@ -13,6 +13,14 @@ Route::get('/lab3', function () {
     return view('lab3');
 })->name('lab3');
 
+Route::get('/readers', function () {
+    return view('readers');
+})->name('readers');
+
+Route::get('/books', function () {
+    return view('books');
+})->name('books');
+
 Route::get('/', [HomeController::class, 'index'])
     ->name('home');
 
