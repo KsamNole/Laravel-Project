@@ -2,6 +2,8 @@
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
 
+use App\MagicCategory\InsertController;
+
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
@@ -23,6 +25,11 @@ Route::get('/books', function () {
 
 Route::get('/', [HomeController::class, 'index'])
     ->name('home');
+
+Route::post('/insert-reader', [InsertController::class, 'insertReader'])
+    ->name('bd-insert-reader');
+Route::post('/insert-book', [InsertController::class, 'insertBook'])
+    ->name('bd-insert-book');
 
 Route::group(['middleware' => 'auth'], function () {
     Route::group(['middleware' => 'admin'], function () {
