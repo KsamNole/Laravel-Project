@@ -23,6 +23,10 @@ Route::get('/books', function () {
     return view('books');
 })->name('books');
 
+Route::get('/filter', function () {
+    return view('filter');
+})->name('filter');
+
 Route::get('/', [HomeController::class, 'index'])
     ->name('home');
 

@@ -15,13 +15,13 @@
         <div class="form-group">
             <label for="name">Кому назначена задача</label>
             <p><select type="text" name="name" id="name" class="form-control">
-                <?
-                $contact = new User;
-                $data = $contact->all();
-                foreach ($data as $el)
-                    if (!($el->isAdmin()))
-                        echo "<option>$el->name</option>";
-                ?>
+                    <?
+                    $contact = new User;
+                    $data = $contact->all();
+                    foreach ($data as $el)
+                        if (!($el->isAdmin()))
+                            echo "<option>$el->name</option>";
+                    ?>
             </select></p>
         </div>
 

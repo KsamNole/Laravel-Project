@@ -5,7 +5,7 @@ $user = 'root'; // имя пользователя
 $pass= 'root'; // пароль
 
 try {
-    $DBH = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
+    $DBH = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
 }
 catch(PDOException $e) {
     echo $e->getMessage();

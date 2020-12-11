@@ -23,13 +23,21 @@ class InsertController extends Controller{
     public function insertBook(Request $req){
         $contact = new Books();
         $contact->setConnection('mysql2');
-        $contact->reader_id = 1;
-        $contact->book_id = 5;
-        $contact->taken_at = "2020-08-23 18:48:24";
-        $contact->returned_at = "2020-09-23 18:48:24";
+        $contact->reader_id = $req->input('name');
+        $contact->book_id = $req->input('book');
+        if ($req->input('take') == 1){
+            $contact->taken_at = date("Y-m-d H:i:s");
+            $contact->returned_at = Null;
+        }
+        else{
+            $contact->taken_at = Books::on('mysql2')->get()->where('reader_id', $req->input('name'))
+            ->where('book_id', $req->input('book'))->last()->taken_at;
+            $contact->returned_at = date("Y-m-d H:i:s");
+        }
+
 
         $contact->save();
 
-        return redirect()->route('readers')->with('success', 'Запись добавлена');
+        return redirect()->route('books')->with('success', 'Запись добавлена');
     }
 }

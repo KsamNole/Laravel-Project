@@ -11,13 +11,7 @@
             <th>Имя</th>
         </tr>
     <?php
-    require 'D:\Fast access\Desktop\Games and programms\OpenServer\domains\home\blog\resources\views\bd\bd-connect.php';
-    try {
-        $DBH = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
-    }
-    catch(PDOException $e) {
-        echo $e->getMessage();
-    }
+        require __DIR__.'/../../../resources/views/bd/bd-connect.php';
     $STH = $DBH->query("SELECT * FROM readers");
     $STH->setFetchMode(PDO::FETCH_ASSOC);
     while($row = $STH->fetch()){
