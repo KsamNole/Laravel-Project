@@ -5,8 +5,6 @@
 @section('tablebooks')
     <?php
     require __DIR__.'/../../../resources/views/bd/bd-connect.php';
-    $b = $DBH->query("SELECT name, id, pub_date FROM books");
-    $b->setFetchMode(PDO::FETCH_ASSOC);
     ?>
     <?php
         if (isset($_GET['q'])){

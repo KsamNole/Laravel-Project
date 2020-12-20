@@ -12,15 +12,7 @@
         </tr>
     <?php
         require __DIR__.'/../../../resources/views/bd/bd-connect.php';
-    $STH = $DBH->query("SELECT * FROM readers");
-    $STH->setFetchMode(PDO::FETCH_ASSOC);
-    while($row = $STH->fetch()){
-        echo "<tr>
-                <td>".$row['id']."</td>
-                <td>".$row['last_name']."</td>
-                <td>".$row['first_name']."</td>
-              </tr>";
-    }
+        require __DIR__.'/../../../resources/views/bd/readers.php';
     ?>
     </table>
     <p><h3>Добавить нового читателя</h3>

@@ -1,4 +1,6 @@
 <?php
+$b = $DBH->query("SELECT name, id, pub_date FROM books");
+$b->setFetchMode(PDO::FETCH_ASSOC);
 while($row = $b->fetch()){
     $id = $row['id'];
     $a = $DBH->query("SELECT taken_at, returned_at, last_name FROM log_taking, readers

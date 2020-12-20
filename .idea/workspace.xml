@@ -31,15 +31,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae0a8d61-d9e5-4aa2-b89f-816eb074849e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/resources/views/bd/books.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/resources/views/bd/filteredBooks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/resources/views/filter.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/resources/views/layouts/books.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/app/Http/Requests/InsertRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/views/bd/readers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/app/MagicCategory/InsertController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/MagicCategory/InsertController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/resources/views/bd/bd-connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/bd/bd-connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/MagicCategory/MagicClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/MagicCategory/MagicClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/bd/books.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/bd/books.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/resources/views/books.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/books.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/lab3.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/lab3.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/resources/views/readers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/readers.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/routes/web.php" afterDir="false" />
     </list>
@@ -194,17 +195,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Fast access\Desktop\Games and programms\OpenServer\domains\home\blog\resources\views\bd" />
-      <recent name="D:\Fast access\Desktop\Games and programms\OpenServer\domains\home\blog\public" />
-      <recent name="D:\Fast access\Desktop\Games and programms\OpenServer\domains\home\blog\resources\views" />
-      <recent name="D:\Fast access\Desktop\Games and programms\OpenServer\domains\home\blog\app\MagicCategory" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Fast access\Desktop\Games and programms\OpenServer\domains\home\blog\resources\views" />
       <recent name="D:\Fast access\Desktop\Games and programms\OpenServer\domains\home\blog\database\migrations" />
       <recent name="D:\Fast access\Desktop\Games and programms\OpenServer\domains\home\blog\app\Http\Middleware" />
       <recent name="D:\Fast access\Desktop\Games and programms\OpenServer\domains\home\blog\resources\views\inc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Fast access\Desktop\Games and programms\OpenServer\domains\home\blog\resources\views\bd" />
+      <recent name="D:\Fast access\Desktop\Games and programms\OpenServer\domains\home\blog\public" />
+      <recent name="D:\Fast access\Desktop\Games and programms\OpenServer\domains\home\blog\resources\views" />
+      <recent name="D:\Fast access\Desktop\Games and programms\OpenServer\domains\home\blog\app\MagicCategory" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -234,6 +235,13 @@
       <workItem from="1607601600156" duration="12750000" />
       <workItem from="1607635386589" duration="612000" />
       <workItem from="1607679643165" duration="8385000" />
+      <workItem from="1607699727332" duration="8544000" />
+      <workItem from="1607799594910" duration="1476000" />
+      <workItem from="1607860846104" duration="2050000" />
+      <workItem from="1607863882392" duration="742000" />
+      <workItem from="1607952125367" duration="1570000" />
+      <workItem from="1607964594421" duration="957000" />
+      <workItem from="1608453503804" duration="8471000" />
     </task>
     <servers />
   </component>
@@ -256,14 +264,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="633" y="543" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607685847074">
+    <state x="633" y="543" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607861140806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="633" y="543" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607685847074" />
+    <state x="633" y="543" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607861140806" />
     <state x="899" y="365" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607521147169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="899" y="365" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607521147169" />
+    <state x="1097" y="338" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#function0" timestamp="1607800501457">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1097" y="338" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#function0/0.0.1920.1040@0.0.1920.1040" timestamp="1607800501457" />
     <state x="1020" y="457" key="#com.jetbrains.php.refactoring.move.PhpMoveClassDialog#0" timestamp="1606842048271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -284,10 +296,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1029" y="82" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605959831046" />
-    <state x="1228" y="274" key="run.anything.popup" timestamp="1607604467334">
+    <state x="1228" y="274" key="run.anything.popup" timestamp="1607800526854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1228" y="274" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607604467334" />
+    <state x="1228" y="274" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607800526854" />
     <state x="1047" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1607609024131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -9,5 +9,5 @@
 
 @section('aside')
     @parent
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam neque ipsum, facilisis eu dignissim vitae, iaculis bibendum lorem.ч</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam neque ipsum, facilisis eu dignissim vitae, iaculis bibendum lorem.</p>
 @endsection

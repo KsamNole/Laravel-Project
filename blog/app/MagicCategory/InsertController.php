@@ -3,13 +3,14 @@
 namespace App\MagicCategory;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\InsertRequest;
 use App\Models\Books;
 use App\Models\Reader;
 use Illuminate\Http\Request;
 
 class InsertController extends Controller{
 
-    public function insertReader(Request $req){
+    public function insertReader(InsertRequest $req){
         $contact = new Reader();
         $contact->setConnection('mysql2');
         $contact->last_name = $req->input('last_name');
@@ -17,10 +18,10 @@ class InsertController extends Controller{
 
         $contact->save();
 
-        return redirect()->route('books')->with('success', 'Читатель добавлен');
+        return redirect()->route('readers')->with('success', 'Читатель добавлен');
     }
 
-    public function insertBook(Request $req){
+    public function insertBook(InsertRequest $req){
         $contact = new Books();
         $contact->setConnection('mysql2');
         $contact->reader_id = $req->input('name');

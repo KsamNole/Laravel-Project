@@ -4,14 +4,15 @@ namespace App\MagicCategory;
 
 class MagicClass {
 
-    public $foo;
     public $user;
+    public $id;
     private $x;
 
 
-    public function __construct($foo)
+    public function __construct($user, $id)
     {
-        $this->foo = $foo;
+        $this->user = $user;
+        $this->id = $id;
         echo '__construct - при создании объекта<br>';
     }
 
@@ -48,7 +49,7 @@ class MagicClass {
     public function __toString()
     {
         echo '__toString - преобразует объект в строку<br>';
-        return "$this->foo<br>";
+        return "$this->user<br>";
     }
 
     public function __serialize()
@@ -56,7 +57,7 @@ class MagicClass {
         echo "__serialize - вызывается перед сериализацией<br>";
         return [
             'user' => $this->user,
-            'foo' => $this->foo,
+            'id' => $this->id,
         ];
     }
 
@@ -64,7 +65,7 @@ class MagicClass {
     {
         echo "__unserialize - восстанавливает свойства объекта из массива<br>";
         $this->user = $data['user'];
-        $this->foo = $data['foo'];
+        $this->id = $data['id'];
     }
 }
 ?>

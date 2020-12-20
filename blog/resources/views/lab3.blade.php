@@ -3,7 +3,7 @@ use App\MagicCategory\Point;
 use App\MagicCategory\Vector;
 use App\MagicCategory\MagicClass;
 
-$const = new MagicClass(2);
+$const = new MagicClass('Max', 2);
 $const->aaaa();
 $const->x = 2;
 $const->x;
